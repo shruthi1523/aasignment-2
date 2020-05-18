@@ -1,19 +1,24 @@
 {
-  "name": "aasignment-2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "page.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shruthi1523/aasignment-2.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shruthi1523/aasignment-2/issues"
-  },
-  "homepage": "https://github.com/shruthi1523/aasignment-2#readme"
+    "name": "aasignment-2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+        "start": "npm run lite",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lite": "lite-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/shruthi1523/aasignment-2.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/shruthi1523/aasignment-2/issues"
+    },
+    "homepage": "https://github.com/shruthi1523/aasignment-2#readme",
+    "devDependencies": {
+        "lite-server": "^2.5.4"
+    }
 }
